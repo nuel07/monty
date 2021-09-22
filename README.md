@@ -59,27 +59,27 @@ Run the interpreter on a file:
         The result is stored in the second element from the top and the top element is popped.
     
 
-   sub
+    sub
 
     Subtracts the top element of the stack/queue from the second element from the top.
     The result is stored in the second element from the top and the top element is removed.
 
-   mul
+    mul
 
     Multiplies the top two elements of the stack/queue.
     The result is stored in the second element from the top and the top element is removed.
 
-   div
+    div
 
     Divides the second element from the top of the stack/queue by the top element.
     The result is stored in the second element from the top and the top element is removed.
 
-   mod
+    mod
 
     Computes the modulus of the second element from the top of the stack/queue divided by the top element.
     The result is stored in the second element from the top and the top element is removed.
 
-   pchar
+    pchar
 
     Prints the character value of the top element of the stack/queue.
     The integer at the top is treated as an ASCII value.
